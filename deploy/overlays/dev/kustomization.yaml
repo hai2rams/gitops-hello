@@ -1,0 +1,10 @@
+resources:
+  - namespace.yaml
+  - ../../base
+
+namespace: demo
+
+images:
+  - name: ghcr.io/REPLACE_ME/REPLACE_ME
+    newName: ghcr.io/hai2rams/gitops-hello
+    newTag: "dev"
