@@ -1,3 +1,6 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
 resources:
   - namespace.yaml
   - ../../base
@@ -5,11 +8,6 @@ resources:
 namespace: demo
 
 images:
-    - name: ghcr.io/hai2rams/gitops-hello:dev
-<<<<<<< HEAD
+  - name: ghcr.io/hai2rams/gitops-hello
     newName: ghcr.io/hai2rams/gitops-hello
-    newTag: "3dc33a487b6c1673ada73824adbb6436b809b29c"
-=======
-      newName: ghcr.io/hai2rams/gitops-hello 
-      newTag: "dev"
->>>>>>> 6e834fa (fourth commit)
+    newTag: "dev"
