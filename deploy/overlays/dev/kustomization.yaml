@@ -8,7 +8,7 @@ images:
     - name: ghcr.io/hai2rams/gitops-hello:dev
 <<<<<<< HEAD
     newName: ghcr.io/hai2rams/gitops-hello
-    newTag: "9e5198d9bcd2ad3c1d5bfa0b3a7c31fa53c18a49"
+    newTag: "3dc33a487b6c1673ada73824adbb6436b809b29c"
 =======
       newName: ghcr.io/hai2rams/gitops-hello 
       newTag: "dev"
