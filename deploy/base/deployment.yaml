@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: hello
-        image: ghcr.io/REPLACE_ME/REPLACE_ME:latest
+	image: ghcr.io/hai2rams/gitops-hello:dev
         ports:
         - containerPort: 8080

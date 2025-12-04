@@ -5,6 +5,6 @@ resources:
 namespace: demo
 
 images:
-  - name: ghcr.io/REPLACE_ME/REPLACE_ME
+    - name: ghcr.io/hai2rams/gitops-hello:dev
     newName: ghcr.io/hai2rams/gitops-hello
     newTag: "dev"
