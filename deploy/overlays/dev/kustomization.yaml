@@ -6,5 +6,10 @@ namespace: demo
 
 images:
     - name: ghcr.io/hai2rams/gitops-hello:dev
+<<<<<<< HEAD
     newName: ghcr.io/hai2rams/gitops-hello
     newTag: "9e5198d9bcd2ad3c1d5bfa0b3a7c31fa53c18a49"
+=======
+      newName: ghcr.io/hai2rams/gitops-hello 
+      newTag: "dev"
+>>>>>>> 6e834fa (fourth commit)
