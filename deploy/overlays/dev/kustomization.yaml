@@ -10,4 +10,4 @@ namespace: demo
 images:
   - name: ghcr.io/hai2rams/gitops-hello
     newName: ghcr.io/hai2rams/gitops-hello
-    newTag: "dev"
+    newTag: "c51327ddf304f53812704b8c035aa36f730a7372"
